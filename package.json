@@ -19,6 +19,7 @@
 		"application",
 		"dir",
 		"directory",
+		"it.rocks",
 		"node",
 		"path",
 		"root"
@@ -30,5 +31,5 @@
 	"scripts": {
 		"build": "tsc -p tsconfig.json"
 	},
-	"version": "0.0.2"
+	"version": "0.0.3"
 }
