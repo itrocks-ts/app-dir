@@ -18,6 +18,7 @@
 	"files": [
 		"LICENSE",
 		"README.md",
+		"cjs",
 		"*.d.ts",
 		"*.js"
 	],
@@ -40,5 +41,5 @@
 		"build:esm": "tsc -p tsconfig.esm.json"
 	},
 	"types": "./app-dir.ts",
-	"version": "0.0.4"
+	"version": "0.0.5"
 }
