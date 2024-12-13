@@ -8,6 +8,13 @@
 		"@types/node": "^22.9",
 		"typescript": "~5.6"
 	},
+	"engines": {
+		"node": ">=18"
+	},
+	"exports": {
+		"import": "./app-dir.js",
+		"require": "./cjs/app-dir.js"
+	},
 	"files": [
 		"LICENSE",
 		"README.md",
@@ -25,11 +32,13 @@
 		"root"
 	],
 	"license": "ISC",
-	"main": "./app-dir.js",
 	"name": "@itrocks/app-dir",
 	"repository": "https://github.com/itrocks-ts/app-dir",
 	"scripts": {
-		"build": "tsc -p tsconfig.json"
+		"build": "npm run build:cjs && npm run build:esm",
+		"build:cjs": "tsc -p tsconfig.cjs.json",
+		"build:esm": "tsc -p tsconfig.esm.json"
 	},
-	"version": "0.0.3"
+	"types": "./app-dir.ts",
+	"version": "0.0.4"
 }
