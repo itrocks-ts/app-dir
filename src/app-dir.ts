@@ -2,9 +2,8 @@ import { existsSync } from 'node:fs'
 import { dirname, normalize }  from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-// @ts-ignore Compatibility code
-__filename ??= fileURLToPath(import.meta.url)
-__dirname  ??= dirname(__filename)
+// @ts-ignore CommonJS/ESModule compatibility
+const dirName = import.meta ? dirname(fileURLToPath(import.meta.url)) : __dirname
 
-const appDir = normalize(__dirname + (existsSync(__dirname + '/../../../node_modules') ? '/../../..' : '/..'))
+const appDir = normalize(dirName + (existsSync(dirName + '/../../../node_modules') ? '/../../..' : '/..'))
 export default appDir
