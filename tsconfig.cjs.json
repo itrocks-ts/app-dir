@@ -3,5 +3,5 @@
 		"module": "CommonJS"
 	},
 	"extends": "./tsconfig.json",
-	"include": ["cjs"]
+	"include": ["./cjs"]
 }
