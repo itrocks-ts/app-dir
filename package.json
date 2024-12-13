@@ -34,7 +34,9 @@
 	],
 	"license": "ISC",
 	"name": "@itrocks/app-dir",
-	"repository": "https://github.com/itrocks-ts/app-dir",
+	"repository": {
+		"git": "https://github.com/itrocks-ts/app-dir"
+	},
 	"scripts": {
 		"build": "npm run build:cjs && npm run build:esm",
 		"build:cjs": "tsc -p tsconfig.cjs.json",
