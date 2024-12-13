@@ -12,15 +12,14 @@
 		"node": ">=18"
 	},
 	"exports": {
-		"import": "./app-dir.js",
+		"import": "./esm/app-dir.js",
 		"require": "./cjs/app-dir.js"
 	},
 	"files": [
 		"LICENSE",
 		"README.md",
-		"cjs",
-		"*.d.ts",
-		"*.js"
+		"*/*.d.ts",
+		"*/*.js"
 	],
 	"keywords": [
 		"app",
@@ -42,6 +41,6 @@
 		"build:cjs": "tsc -p tsconfig.cjs.json",
 		"build:esm": "tsc -p tsconfig.esm.json"
 	},
-	"types": "./app-dir.ts",
-	"version": "0.0.8"
+	"types": "./esm/app-dir.ts",
+	"version": "0.0.9"
 }
