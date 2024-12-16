@@ -34,7 +34,8 @@
 	"license": "ISC",
 	"name": "@itrocks/app-dir",
 	"repository": {
-		"git": "https://github.com/itrocks-ts/app-dir"
+		"type": "git",
+		"url": "https://github.com/itrocks-ts/app-dir"
 	},
 	"scripts": {
 		"build": "npm run build:cjs && npm run build:esm",
@@ -42,5 +43,5 @@
 		"build:esm": "tsc -p tsconfig.esm.json"
 	},
 	"types": "./esm/app-dir.d.ts",
-	"version": "0.0.14"
+	"version": "0.0.15"
 }
