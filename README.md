@@ -1,8 +1,8 @@
-[![view on npm](https://badgen.net/npm/v/@itrocks/app-dir)](https://www.npmjs.org/package/@itrocks/app-dir)
-[![npm module downloads](https://badgen.net/npm/dt/@itrocks/app-dir)](https://www.npmjs.org/package/@itrocks/app-dir)
-[![GitHub repo dependents](https://badgen.net/github/dependents-repo/itrocks-ts/app-dir?label=dependents)](https://github.com/itrocks-ts/app-dir/network/dependents?dependent_type=REPOSITORY)
-[![Report issues on GitHub](https://badgen.net/github/open-issues/itrocks-ts/app-dir?icon=github)](https://github.com/itrocks-ts/app-dir/issues)
-[![Get support on Discord](https://badgen.net/discord/members/kbMjUq5F?icon=discord)](https://discord.gg/kbMjUq5F)
+[![npm version](https://img.shields.io/npm/v/@itrocks/app-dir?logo=npm)](https://www.npmjs.org/package/@itrocks/app-dir)
+[![npm downloads](https://img.shields.io/npm/dm/@itrocks/app-dir)](https://www.npmjs.org/package/@itrocks/app-dir)
+[![GitHub](https://img.shields.io/github/last-commit/itrocks-ts/app-dir?color=2dba4e&label=commit&logo=github)](https://github.com/itrocks-ts/app-dir)
+[![issues](https://img.shields.io/github/issues/itrocks-ts/app-dir)](https://github.com/itrocks-ts/app-dir/issues)
+[![discord](https://img.shields.io/discord/1314141024020467782?color=7289da&label=discord&logo=discord&logoColor=white)](https://discord.gg/WFPJjmUx)
 
 # app-dir
 
