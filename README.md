@@ -2,7 +2,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/@itrocks/app-dir)](https://www.npmjs.org/package/@itrocks/app-dir)
 [![GitHub](https://img.shields.io/github/last-commit/itrocks-ts/app-dir?color=2dba4e&label=commit&logo=github)](https://github.com/itrocks-ts/app-dir)
 [![issues](https://img.shields.io/github/issues/itrocks-ts/app-dir)](https://github.com/itrocks-ts/app-dir/issues)
-[![discord](https://img.shields.io/discord/1314141024020467782?color=7289da&label=discord&logo=discord&logoColor=white)](https://discord.gg/WFPJjmUx)
+[![discord](https://img.shields.io/discord/1314141024020467782?color=7289da&label=discord&logo=discord&logoColor=white)](https://discord.gg/RZYhmhgrCk)
 
 # app-dir
 
