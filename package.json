@@ -37,7 +37,7 @@
 	"name": "@itrocks/app-dir",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/itrocks-ts/app-dir"
+		"url": "git+https://github.com/itrocks-ts/app-dir.git"
 	},
 	"scripts": {
 		"build": "npm run build:cjs && npm run build:esm",
@@ -45,5 +45,5 @@
 		"build:esm": "tsc -p tsconfig.esm.json"
 	},
 	"types": "./esm/app-dir.d.ts",
-	"version": "0.0.19"
+	"version": "0.0.20"
 }
