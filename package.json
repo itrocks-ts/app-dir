@@ -21,9 +21,11 @@
 		"*/*.d.ts",
 		"*/*.js"
 	],
+	"homepage": "https://it.rocks",
 	"keywords": [
 		"app",
 		"application",
+		"backend",
 		"dir",
 		"directory",
 		"it.rocks",
@@ -43,5 +45,5 @@
 		"build:esm": "tsc -p tsconfig.esm.json"
 	},
 	"types": "./esm/app-dir.d.ts",
-	"version": "0.0.18"
+	"version": "0.0.19"
 }
