@@ -12,14 +12,14 @@ A Node.js library to determine the root directory of your project.
 
 ### Installation
 
-```sh
+```bash
 npm i @itrocks/app-dir
 ```
 
 ### Example
 
 ```ts
-import appDir from '@itrocks/app-dir'
+import { appDir } from '@itrocks/app-dir'
 console.log(appDir)
 // Prints the root directory of your main application
 ```

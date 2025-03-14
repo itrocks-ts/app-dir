@@ -4,4 +4,3 @@ import { fileURLToPath }      from 'node:url'
 
 const dirName = dirname(fileURLToPath(import.meta.url))
 export const appDir = normalize(dirName + (existsSync(dirName + '/../../../../node_modules') ? '/../../../..' : '/..'))
-export default appDir

@@ -41,9 +41,9 @@
 	},
 	"scripts": {
 		"build": "npm run build:cjs && npm run build:esm",
-		"build:cjs": "tsc -p tsconfig.cjs.json",
-		"build:esm": "tsc -p tsconfig.esm.json"
+		"build:cjs": "tsc -p cjs/tsconfig.json",
+		"build:esm": "tsc -p esm/tsconfig.json"
 	},
 	"types": "./esm/app-dir.d.ts",
-	"version": "0.0.22"
+	"version": "0.0.23"
 }
