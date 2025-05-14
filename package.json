@@ -6,7 +6,7 @@
 	"description": "A Node.js library to determine the root directory of your project",
 	"devDependencies": {
 		"@types/node": "^22.9",
-		"typescript": "~5.6"
+		"typescript": "~5.8"
 	},
 	"engines": {
 		"node": ">=18"
@@ -45,5 +45,5 @@
 		"build:esm": "tsc -p esm/tsconfig.json"
 	},
 	"types": "./esm/app-dir.d.ts",
-	"version": "0.0.23"
+	"version": "0.0.24"
 }
