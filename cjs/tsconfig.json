@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"module": "CommonJS"
+		"module": "nodenext"
 	},
 	"extends": "../tsconfig.json",
 	"include": ["./"]
